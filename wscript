@@ -169,11 +169,11 @@ def build(bld):
 
 def shutdown():
     if Options.commands['clean']:
-        if os.path.exists(TARGET_FILE):
+        if os.fs.exists(TARGET_FILE):
             unlink(TARGET_FILE)
     else:
-        if os.path.exists(builtV4):
+        if os.fs.exists(builtV4):
             copy(builtV4, dest)
-        if os.path.exists(built):
+        if os.fs.exists(built):
             copy(built, dest)
 
