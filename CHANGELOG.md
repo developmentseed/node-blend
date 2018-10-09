@@ -1,5 +1,9 @@
 # Changlog
 
+# 3.0.0
+
+- Updated to mapnik 4.0.1
+
 ## 2.0.0
 
 - Updated to mapnik 3.7.0
